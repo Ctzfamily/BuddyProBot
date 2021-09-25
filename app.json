@@ -59,16 +59,16 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1118936839"
+         "value": "1973243261"
       },
       "OWNER_NAME": {
          "description": "Your Name",
-         "value": "✰Sᴀͥʀᴀͣᴛͫʜ™️✰"
+         "value": "Soul Queen"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1118936839"
+         "value": "1973243261"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -113,7 +113,7 @@
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1118936839"
+         "value": "1973243261"
       },
      
       "TOKEN": {
@@ -134,7 +134,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1118936839"
+         "value": "1973243261"
       },
       "WALL_API":{
          "description": "Enter wall api",
@@ -163,7 +163,7 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ],
-   "name": "Cinderella",
+   "name": "Buddy",
    "repository": "https://github.com/ImSoulQueen/BuddyProBot",
    "success_url": "https://telegram.dog/BuddyProBot",
    "logo": "https://telegra.ph/file/511ad504656e712b88235.jpg"
