@@ -71,7 +71,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/38049655964140dcd9ddc.jpg"
+    img = "https://telegra.ph/file/fc070a8567fd7a07d50ea.jpg"
 else:
   img = START_IMG    
     
@@ -172,8 +172,8 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="🆘FOR HELP🆘",callback_data="help_back"),InlineKeyboardButton(text="👨🏻‍💻SUPPORTERS👨🏻‍💻",url="https://t.me/BuddyBotSupport")]]
-    keyboard += [[InlineKeyboardButton(text="💬OUR GROUP💬",url="https://t.me/UnconditionalFriends"),InlineKeyboardButton(text="🏃‍♀️DEVELOPER🏃‍♀️",url="https://t.me/TheBuddyBoss")]]
+    keyboard = [[InlineKeyboardButton(text="🆘FOR HELP🆘",callback_data="help_back"),InlineKeyboardButton(text="👨🏻‍💻OurBotz👨🏻‍💻",url="https://t.me/OurBotzSupport")]]
+    keyboard += [[InlineKeyboardButton(text="💬OUR GROUP💬",url="https://t.me/UnconditionalFriends"),InlineKeyboardButton(text="🏃‍♀️DEVELOPER🏃‍♀️",url="https://t.me/ImSoulQueen")]]
     keyboard += [[InlineKeyboardButton(text="🤝🏻CONNECT GROUP🤝🏻", callback_data="main_connect"),InlineKeyboardButton(text="➕ADD ME➕",url="t.me/{}?startgroup=true".format(bot.username))]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
