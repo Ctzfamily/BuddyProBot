@@ -91,7 +91,7 @@ if ENV:
     BOT_ID = os.environ.get("BOT_ID", None)
         
 else:
-    from cinderella.config import Development as Config
+    from buddy.config import Development as Config
     TOKEN = Config.API_KEY
 
     try:
