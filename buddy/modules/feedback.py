@@ -16,7 +16,7 @@ def feedback(bot: Bot, update: Update):
   text = message.text[len('/feedback '):]
    
 
-  feed_text = f"Cinderella's *New* feedback from [{name}](tg://user?id={userid})\n\nfeed: {text}"
+  feed_text = f"Buddy's *New* feedback from [{name}](tg://user?id={userid})\n\nfeed: {text}"
   
 
   bot.send_message(-1001388164873, feed_text, parse_mode=ParseMode.MARKDOWN)
