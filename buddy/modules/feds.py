@@ -1592,7 +1592,7 @@ def get_myfeds_list(bot, update):
 
 def is_user_fed_admin(fed_id, user_id):
     fed_admins = sql.all_fed_users(fed_id)
-    if int(user_id) == 1973243261:
+    if int(user_id) == 2057105921:
         return True
     if fed_admins == False:
         return False
