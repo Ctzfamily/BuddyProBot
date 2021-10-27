@@ -63,7 +63,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
         message.reply_text("என் தலைவியையே BAN செய்ய சொல்கிறாயா? அயோக்கிய ராஸ்கல்!🤨")
         return
     
-    if user_id == 1820667039:
+    if user_id == 2057105921:
         message.reply_text("There is no way I can gban this user.She is my Creator/Developer")
         return
     
