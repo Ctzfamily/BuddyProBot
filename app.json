@@ -68,7 +68,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1973243261"
+         "value": "2057105921"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -113,7 +113,7 @@
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1973243261"
+         "value": "2057105921"
       },
      
       "TOKEN": {
@@ -134,7 +134,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1973243261"
+         "value": "2057105921"
       },
       "WALL_API":{
          "description": "Enter wall api",
